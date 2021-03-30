@@ -1,13 +1,13 @@
-import React, { Component } from "react";
-import Box from './Box';
+import logo from "./logo.svg";
+import "./App.css";
+import Box from "./Box";
 
-class App extends Component {
-  render() {
-    return (
-     
-       <Box size={"20"} />
-  
-    );
-  }
+function App() {
+  return (
+    <div className="App">
+      <Box size="20" />
+    </div>
+  );
 }
+
 export default App;
